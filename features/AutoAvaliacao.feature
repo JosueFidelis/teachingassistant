@@ -15,3 +15,4 @@ Scenario: Inserindo notas de autoavaliação
     When Adiciono algumas notas, porém não todas
     Then Recebo uma mensagem "autoavaliação incompleta"
     And Sou direcionado a página de "autoavaliação" novamente
+    And a mensagme de "autoavaliação incompleta" aparece na página

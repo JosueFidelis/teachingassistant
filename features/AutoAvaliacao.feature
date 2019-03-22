@@ -15,7 +15,7 @@ Scenario: Inserindo notas de autoavaliação
     When Adiciono algumas notas, porém não todas
     Then Recebo uma mensagem "autoavaliação incompleta"
     And Sou direcionado a página de "autoavaliação"
-    And Uma mensagem de "autoavaliação incompleta" aparece na página
+    And Uma mensagem de "autoavaliação incompleta" aparece na págin
 
 
   Scenario: Checando a discrepância na nota de um aluno, quando não há discrepâncias

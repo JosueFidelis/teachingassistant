@@ -1,7 +1,7 @@
 Scenario: Inserindo notas de autoavaliação
   Given Estou na página de "autoavaliação" como aluno
   And O professor já liberou as notas
-  When Adiciono algumas notas, porém não tod
+  When Adiciono algumas notas, porém não todas
   Then Recebo uma mensagem "autoavaliação incompleta"
   And Sou direcionado a página de "autoavaliação" novamente
 
@@ -31,5 +31,5 @@ Scenario: Inserindo notas de autoavaliação
     And  tem 3 alunos na lista
     And Todos os alunos já se autoavaliaram
     When Verifico se algum dos alunos estão em estado de discrepância
-    And Percebo que um dos alunos está em estado de discrepância
+    And Percebo que um dos alunos está em estado de discrepânc
    Then Posso checar a porcentagem da discrepância das notas dele.
